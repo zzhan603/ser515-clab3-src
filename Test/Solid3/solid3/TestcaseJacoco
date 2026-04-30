@@ -1,0 +1,20 @@
+@Test
+void testMoreEdgeCases() {
+    
+    
+    // Branches
+    assertEquals(1, Smell1AlmostBest.toPower(1, 100)); // always 1
+    assertEquals(0, Smell1AlmostBest.toPower(0, 5));   // zero base
+}
+
+@Test
+void testNegativeBaseMoreCases() {
+    assertEquals(16, Smell1AlmostBest.toPower(-2, 4)); // even
+    assertEquals(-32, Smell1AlmostBest.toPower(-2, 5)); // odd
+}
+
+@Test
+void testLargeValues() {
+    assertEquals(1024, Smell1AlmostBest.toPower(2, 10));
+    assertEquals(59049, Smell1AlmostBest.toPower(3, 10));
+}
