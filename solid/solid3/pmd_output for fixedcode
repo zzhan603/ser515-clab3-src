@@ -1,0 +1,3 @@
+G:\ASU SOFTWARE 2026\SER 515 Foundations of Software Engineering\Construction Lab 3\solid\solid3>pmd.bat check -d IPowerFixed.java -f text -R rulesets/java/quickstart.xml > pmd_original_output.txt
+[WARN] Progressbar rendering conflicts with reporting to STDOUT. No progressbar will be shown. Try running with argument -r <file> to output the report to a file instead.
+[WARN] This analysis could be faster, please consider using Incremental Analysis: https://docs.pmd-code.org/pmd-doc-7.24.0/pmd_userdocs_incremental_analysis.html

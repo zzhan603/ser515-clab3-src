@@ -1,0 +1,8 @@
+IPower.java:11:	MissingOverride:	The method 'toPower(int, int)' is missing an @Override annotation.
+IPower.java:13:	ControlStatementBraces:	This statement should have braces
+IPower.java:15:	EmptyControlStatement:	Empty for statement
+IPower.java:15:	ControlStatementBraces:	This statement should have braces
+IPower.java:17:	UnnecessarySemicolon:	Unnecessary semicolon
+IPower.java:18:	UnnecessarySemicolon:	Unnecessary semicolon
+IPower.java:27:	MissingOverride:	The method 'toPower(int, int)' is missing an @Override annotation.
+IPower.java:28:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PowerCached': '__cache' is already in scope because it is declared in an enclosing type
